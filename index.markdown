@@ -4,8 +4,3 @@
 
 layout: home
 ---
-<ul>
-  {% for tag in page.tags %}
-    <li>{{ tag }}</li>
-  {% endfor %}
-</ul>
