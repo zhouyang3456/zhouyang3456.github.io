@@ -1,0 +1,62 @@
+* {
+  /* border-top: 10px solid #1098ad; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 基本样式 */
+body {
+  font-family: sans-serif;
+  /* background-color: rgb(153, 126, 177); */
+  /* border-top: 10px solid #3ab383; */
+}
+
+/* 导航栏整体样式 */
+.navbar {
+  background-color: #efefef;
+  /* overflow: hidden; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0 20px; */
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 8px;
+}
+
+/* 网站名称/LOGO */
+.navbar-brand {
+  color: rgb(60, 60, 60);
+  font-size: 24px;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.bloger {
+  letter-spacing: 2px;
+  margin-right: 4px;
+}
+
+/* 导航链接列表 */
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 0px;
+}
+
+.nav-links a {
+  color: rgb(60, 60, 60);
+  text-decoration: none;
+  padding: 14px 16px;
+  display: block;
+}
+
+.nav-links a:hover {
+  /* background-color: #575757; */
+  /* border-radius: 4px; */
+  color: rgb(246, 85, 171);
+}
