@@ -9,25 +9,26 @@
 body {
   font-family: sans-serif;
   /* background-color: rgb(153, 126, 177); */
-  /* border-top: 10px solid #3ab383; */
+  border-top: 10px solid #1098ad;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
 }
 
 /* 导航栏整体样式 */
 .navbar {
-  background-color: #efefef;
+  background-color: #f7f7f7;
   /* overflow: hidden; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 0 20px; */
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 8px;
 }
 
 /* 网站名称/LOGO */
 .navbar-brand {
-  color: rgb(60, 60, 60);
+  color: #1098ad;
   font-size: 24px;
   text-decoration: none;
   margin-left: 40px;
@@ -49,7 +50,7 @@ body {
 }
 
 .nav-links a {
-  color: rgb(60, 60, 60);
+  color: #1098ad;
   text-decoration: none;
   padding: 14px 16px;
   display: block;
@@ -59,4 +60,8 @@ body {
   /* background-color: #575757; */
   /* border-radius: 4px; */
   color: rgb(246, 85, 171);
+}
+
+footer {
+  text-align: center;
 }
